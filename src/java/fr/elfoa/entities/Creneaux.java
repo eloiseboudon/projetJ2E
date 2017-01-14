@@ -4,6 +4,8 @@ import java.util.Date;
 public class Creneaux {
     private Date debut;
     private Date fin;
+    private Medecin medecin;
+    private RendezVous rdv;
 
     /**
      * @return the debut
@@ -31,6 +33,20 @@ public class Creneaux {
      */
     public void setFin(Date fin) {
         this.fin = fin;
+    }
+
+    /**
+     * @return the medecin
+     */
+    public Medecin getMedecin() {
+        return medecin;
+    }
+
+    /**
+     * @param medecin the medecin to set
+     */
+    public void setMedecin(Medecin medecin) {
+        this.medecin = medecin;
     }
 
 }
