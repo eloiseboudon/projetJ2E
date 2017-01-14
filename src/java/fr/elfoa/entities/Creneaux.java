@@ -9,6 +9,20 @@ public class Creneaux {
     private Medecin medecin;
     private RendezVous rdv;
 
+    public Creneaux(Date debut, Date fin, Medecin medecin){ 
+        this.debut=debut;
+        this.fin=fin;
+        this.medecin=medecin;
+    }
+    
+    public Creneaux(Date debut, Date fin){ 
+        this(debut,fin,null); 
+    }
+    
+    public Creneaux(){ 
+        this(null,null,null); 
+    }
+
     /**
      * @return the debut
      */
