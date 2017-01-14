@@ -1,3 +1,4 @@
+package fr.elfoa.entities;
 
 import java.util.List;
 
@@ -17,6 +18,10 @@ public class Medecin extends Personne{
     }
     
     
+    @Override
+    public String toString(){
+         return "Le medecin est " + getPrenom() +" " + getNom();
+    }
     
   
     

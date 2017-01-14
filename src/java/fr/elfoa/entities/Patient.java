@@ -1,3 +1,4 @@
+package fr.elfoa.entities;
 
 import java.util.List;
 

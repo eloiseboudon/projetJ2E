@@ -1,4 +1,6 @@
 
+package fr.elfoa.entities;
+
 import java.util.Date;
 
 public class Creneaux {
@@ -47,6 +49,20 @@ public class Creneaux {
      */
     public void setMedecin(Medecin medecin) {
         this.medecin = medecin;
+    }
+
+    /**
+     * @return the rdv
+     */
+    public RendezVous getRdv() {
+        return rdv;
+    }
+
+    /**
+     * @param rdv the rdv to set
+     */
+    public void setRdv(RendezVous rdv) {
+        this.rdv = rdv;
     }
 
 }

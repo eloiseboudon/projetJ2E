@@ -1,3 +1,5 @@
+package fr.elfoa.entities;
+
 public class Personne{
     private String nom;
     private String prenom;
@@ -52,6 +54,6 @@ public class Personne{
         return id;
     }
 
-    
+
     
 }
